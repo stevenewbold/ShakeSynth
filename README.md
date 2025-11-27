@@ -26,3 +26,18 @@ The Gizmo has a nice feature that will sample the camera-shake and determine the
 
 ## Exporting Transforms
 While its perfectly acceptable to use the ShakeSynth gizmo within the Nuke node graph, there is also a feature for exporting a standard Nuke Transform node that completely matches the result of the ShakeSynth tool including all sub-frame keyframes.
+
+# Licence
+**Copyright © 2025 Stephen Newbold**
+You may use this software for free, including for commercial work.
+
+Please don’t modify it, reverse-engineer it, or make your own versions based on it without permission.
+
+You may share the original files as long as this notice stays with them.
+
+The software is provided as-is, with no guarantees.
+
+# Commercial Use
+You are welcome to use ShakeSynth for free for any personal or commercial work (see Licence above) but a lot of time and effort goes into creating these tools so if you find it useful, please consider buying me a coffee at https://buymeacoffee.com/stevenewbold to support maintaining my personal Nuke licence.
+
+<img width="100" height="100" alt="bmc_qr" src="https://github.com/user-attachments/assets/452b4ceb-0ed3-4c05-b60d-5fe49c5630d3" />
