@@ -11,6 +11,39 @@ Simply use your iPhone to sample vibrations, shakes etc using the accelerometers
 # ShakeSynth Gizmo
 The ShakeSynth gizmo is a dedicated camera-shake node specifically designed to import and apply the .shk files created by the phone app.  However, there are a number of useful presets supplied to show you how the tool works.  Unlike many other camera-shake tools, ShakeSynth allows for very precise control over the different shake frequencies to fine tune the end result.
 
+## Installation
+The easiest way to install the gizmo is to download the entire ShakeSynth direcroy and add it to somewhere in your NUKE_PATH.  For individuals this is usually the '.nuke' directory in the home directory.  Facilities can install the tool in the same way as any other Nuke gizmo, but its crucial that the gizmo stays inside the ShakeSynth folder, along side the 'profiles' folder and icon files.
+
+Use the following code within your menu.py file to correctly add ShakeSynth to Nuke.
+
+```import nuke
+
+### LOAD SHAKESYNTH /W CODE FOR REFRESHING PROFILES ###
+
+nuke.pluginAddPath('ShakeSynth')
+
+toolbar = nuke.menu('Nodes')
+
+SS_menu = toolbar.addMenu(
+    'ShakeSynth',
+    icon='ShakeSynthMenu.png'
+)
+
+SS_menu.addCommand(
+    'ShakeSynth',
+    'nuke.createNode("ShakeSynth")'
+)
+
+def refreshProfiles():
+
+    n = nuke.thisNode()
+    k = n.knob("refreshProfiles")
+    k.execute()
+
+nuke.addOnCreate(refreshProfiles, nodeClass="ShakeSynth")
+
+###```
+
 ## The Frequencies
 The app will split any captured waveform into three pre-defined frequencies that are then recombined to produce the final result.  These frequencies can be amplified or reduced independently.
 
