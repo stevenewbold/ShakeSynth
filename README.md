@@ -46,6 +46,11 @@ nuke.addOnCreate(refreshProfiles, nodeClass="ShakeSynth")
 ###
 ```
 
+## Adding Custom profiles
+Adding profiles to ShakeSynth is as easy as copying a .shk file (created by the free ShakeSynth app) to the 'profiles' directory of your installation.  There are a number of pre-exisiting profiles included to get you started and make the tool useful for those without access to the app.
+
+The .shk files are somewhat human readable so its possible to adjust these in a text editor if required.
+
 ## The Frequencies
 The app will split any captured waveform into three pre-defined frequencies that are then recombined to produce the final result.  These frequencies can be amplified or reduced independently.
 
