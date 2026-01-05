@@ -69,6 +69,20 @@ The Gizmo has a nice feature that will sample the camera-shake and determine the
 ## Exporting Transforms
 While its perfectly acceptable to use the ShakeSynth gizmo within the Nuke node graph, there is also a feature for exporting a standard Nuke Transform node that completely matches the result of the ShakeSynth tool including all sub-frame keyframes.
 
+# Tips and Tricks
+It is a deliberate choice not to allow the saving of adjusted profiles within the gizmo as it adds a lot of complexity with permissions if installed facility wide.  However, it is perfectly acceptable to use Nuke's own defaults system to create loadable custom states.  It is also pretty straight forward to create duplicates and varations of profiles by manually adjusting .shk files and giving them unique names.  Of course, saved ShakeSynths will maintain their settings.
+
+It is also suggested to use a sensible naming of presets to allow users to find the most suitable one.  Typically this would start with the type of shake, then any type custom description and a version number.  For instance profiles may be called something like,
+
+```
+vibration_carEngine_v001
+```
+or
+```
+impact_explosion_v001
+```
+Use the provided profiles as a guide to what us effective in everyday use, but the tool will pick up any name as long as there are no spaces, and it has a .shk extension.
+
 # Licence
 **Copyright © 2025 Stephen Newbold**
 You may use this software for free, including for commercial work.
