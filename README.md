@@ -1,21 +1,21 @@
 # ShakeSynth
 ShakeSynth is a two-part system (Nuke gizmo/iOS app) for generating and applying real-world camera shake for use in VFX and feature-animation.
 
-There are a number of very useful third-party Nuke gizmos for applying camera shake, but these usually use procedurally generated noise functions to simlate reality.  ShakeSynth uses real world captured data profiles and allows precise adjustment of individual frequencies to adjust the feel of the camera shake.  The tool also has a number of useful features such as auto scaling, offsets and retimes. 
+There are a number of very useful third-party Nuke gizmos for applying camera shake, but these usually use procedurally generated noise functions to simulate reality.  ShakeSynth uses real world captured data profiles and allows precise adjustment of individual frequencies to adjust the feel of the camera shake.  The tool also has a number of useful features such as auto scaling, offsets and retimes. 
 
 # ShakeSynth App
 This is a dedicated app on the AppStore specifically for generating the .shk profiles that are used within the gizmo.
 
-Simply use your iPhone to sample vibrations, shakes etc using the acceleromters and then review and adjust these directly.  The app will capture X/Y translation along with rotation and then decompose this capture into three seperate frequencies that can be visualised independently.  You can preview the shake in real time before exporting a .shk file for use within the Nuke Gizmo.
+Simply use your iPhone to sample vibrations, shakes etc using the accelerometers and then review and adjust these directly.  The app will capture X/Y translation along with rotation and then decompose this capture into three separate frequencies that can be visualised independently.  You can preview the shake in real time before exporting a .shk file for use within the Nuke Gizmo.
 
 # ShakeSynth Gizmo
 The ShakeSynth gizmo is a dedicated camera-shake node specifically designed to import and apply the .shk files created by the phone app.  However, there are a number of useful presets supplied to show you how the tool works.  Unlike many other camera-shake tools, ShakeSynth allows for very precise control over the different shake frequencies to fine tune the end result.
 
 ## The Frequencies
-The app will split any captured waveform into three pre-defined frequencies that are then recombined to produce the final result.  These frequencies can be amimplified or reduced independently.
+The app will split any captured waveform into three pre-defined frequencies that are then recombined to produce the final result.  These frequencies can be amplified or reduced independently.
 
 **Low**
-- This is any movement that spans moe than 3-4 frames.  Think of this as low-frequency camera float.
+- This is any movement that spans more than 3-4 frames.  Think of this as low-frequency camera float.
 
 **Mid**
 - This is movement over 1-2 frames so more of the classic camera rumble/shake, where we see per-frame movement.
