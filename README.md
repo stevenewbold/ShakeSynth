@@ -13,6 +13,7 @@ Simply use your iPhone to sample vibrations, shakes etc using the accelerometers
 # ShakeSynth Gizmo
 The ShakeSynth gizmo is a dedicated camera-shake node specifically designed to import and apply the .shk files created by the phone app.  However, there are a number of useful presets supplied to show you how the tool works.  Unlike many other camera-shake tools, ShakeSynth allows for very precise control over the different shake frequencies to fine tune the end result.
 
+<img width="1124" height="585" alt="ShakeSynthUI" src="https://github.com/user-attachments/assets/cb9356d0-b683-4837-8ff2-8bfd22ea9d72" />
 
 ## Installation
 The easiest way to install the gizmo is to download the entire ShakeSynth direcroy and add it to somewhere in your NUKE_PATH.  For individuals this is usually the '.nuke' directory in the home directory.  Facilities can install the tool in the same way as any other Nuke gizmo, but its crucial that the gizmo stays inside the ShakeSynth folder, along side the 'profiles' folder and icon files.
