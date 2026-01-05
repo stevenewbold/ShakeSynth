@@ -1,0 +1,24 @@
+# Shake metadata
+# ampX=20.0
+# ampY=20.0
+# ampR=1.0
+# enableXLow=true
+# enableXMid=false
+# enableXHigh=true
+# enableYLow=false
+# enableYMid=true
+# enableYHigh=true
+# enableRotLow=true
+# enableRotMid=true
+# enableRotHigh=false
+# xLowMult=1.0
+# xMidMult=1.0
+# xHighMult=1.0
+# yLowMult=1.0
+# yMidMult=1.0
+# yHighMult=1.0
+# rotLowMult=1.0
+# rotMidMult=1.0
+# rotHighMult=1.0
+frame,xLow,xMid,xHigh,yLow,yMid,yHigh,rotationLow,rotationMid,rotationHigh
+1001.0000,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
