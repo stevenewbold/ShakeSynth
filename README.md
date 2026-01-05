@@ -91,6 +91,12 @@ impact_explosion_v001.shk
 ```
 Use the provided profiles as a guide to what us effective in everyday use, but the tool will pick up any name as long as there are no spaces and has a .shk extension.
 
+Capturing useful waveforms takes a bit of practice, but the following is good advice,
++make sure the phone is held as vertically as possible by propping it up.
++stabilising with your hand can dampen high frequency detail, so avoid this if that is what you are trying to capture
++placing the phone on a hard surface can help capture a full dynamic rang of movement
++experiment with adjusting specific frequencies, for instance, killing mid/high frequencies can help create float, or killing low frequencies can help create nice jitter without large translations.
+
 
 # Licence
 **Copyright © 2025 Stephen Newbold**
