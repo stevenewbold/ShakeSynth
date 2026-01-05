@@ -16,7 +16,8 @@ The easiest way to install the gizmo is to download the entire ShakeSynth direcr
 
 Use the following code within your menu.py file to correctly add ShakeSynth to Nuke.
 
-```import nuke
+```
+import nuke
 
 ### LOAD SHAKESYNTH /W CODE FOR REFRESHING PROFILES ###
 
@@ -42,7 +43,8 @@ def refreshProfiles():
 
 nuke.addOnCreate(refreshProfiles, nodeClass="ShakeSynth")
 
-###```
+###
+```
 
 ## The Frequencies
 The app will split any captured waveform into three pre-defined frequencies that are then recombined to produce the final result.  These frequencies can be amplified or reduced independently.
