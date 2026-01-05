@@ -113,6 +113,6 @@ The software is provided as-is, with no guarantees.
 
 
 # Commercial Use
-You are welcome to use ShakeSynth for free for any personal or commercial work (see Licence above) but a lot of time and effort goes into creating these tools so if you find it useful, please consider buying me a coffee at https://buymeacoffee.com/stevenewbold to support maintaining my personal Nuke licence.
+You are welcome to use ShakeSynth for free for any personal or commercial work (see Licence above) but a lot of time and effort goes into creating these tools so if you find it useful, please consider buying me a coffee at https://buymeacoffee.com/stevenewbold to support maintaining my personal Nuke licence (and coffee addiction! :) ).
 
 <img width="100" height="100" alt="bmc_qr" src="https://github.com/user-attachments/assets/452b4ceb-0ed3-4c05-b60d-5fe49c5630d3" />
