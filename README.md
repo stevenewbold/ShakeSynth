@@ -12,12 +12,12 @@ Simply use your iPhone to sample vibrations, shakes etc using the accelerometers
 <img width="231" height="500" alt="ShakeSynthApp" src="https://github.com/user-attachments/assets/0cf71c0a-9137-4053-a3b1-482a6dc78a86" />
 
 # ShakeSynth Gizmo
-The ShakeSynth gizmo is a dedicated camera-shake node specifically designed to import and apply the .shk files created by the phone app.  However, there are a number of useful presets supplied to show you how the tool works.  Unlike many other camera-shake tools, ShakeSynth allows for very precise control over the different shake frequencies to fine tune the end result.
+The ShakeSynth gizmo is a dedicated camera-shake Nuke node specifically designed to import and apply the .shk files created by the phone app.  However, there are a number of useful presets supplied to show you how the tool works.  Unlike many other camera-shake tools, ShakeSynth allows for very precise control over the different shake frequencies to fine tune the end result.
 
 <img width="1124" height="585" alt="ShakeSynthUI" src="https://github.com/user-attachments/assets/cb9356d0-b683-4837-8ff2-8bfd22ea9d72" />
 
 ## Installation
-The easiest way to install the gizmo is to download the entire ShakeSynth direcroy and add it to somewhere in your NUKE_PATH.  For individuals this is usually the '.nuke' directory in the home directory.  Facilities can install the tool in the same way as any other Nuke gizmo, but its crucial that the gizmo stays inside the ShakeSynth folder, along side the 'profiles' folder and icon files.
+The easiest way to install the gizmo is to download the entire ShakeSynth directory and add it to somewhere in your NUKE_PATH.  For individuals this is usually the '.nuke' directory in the home directory.  Facilities can install the tool in the same way as any other Nuke gizmo, but its crucial that the gizmo stays inside the ShakeSynth folder, along side the 'profiles' folder and icon files.
 
 Use the following code within your menu.py file to correctly add ShakeSynth to Nuke.
 
@@ -80,7 +80,7 @@ While its perfectly acceptable to use the ShakeSynth gizmo within the Nuke node 
 
 
 # Tips and Tricks
-It is a deliberate choice not to allow the saving of adjusted profiles within the gizmo as it adds a lot of complexity with permissions if installed facility wide.  However, it is perfectly acceptable to use Nuke's own defaults system to create loadable custom states.  It is also pretty straight forward to create duplicates and varations of profiles by manually adjusting .shk files and giving them unique names.  Of course, saved ShakeSynths will maintain their settings.
+It is a deliberate choice not to allow the saving of adjusted profiles within the gizmo as it adds a lot of complexity with permissions if installed facility wide.  However, it is perfectly acceptable to use Nuke's own defaults system to create loadable custom states.  It is also pretty straight forward to create duplicates and variations of profiles by manually adjusting .shk files and giving them unique names.  Of course, saved ShakeSynth nodes will maintain their settings.
 
 It is also suggested to use a sensible naming of presets to allow users to find the most suitable one.  Typically this would start with the type of shake, then any type custom description and a version number.  For instance profiles may be called something like,
 
