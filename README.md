@@ -9,6 +9,7 @@ This is a dedicated app on the AppStore specifically for generating the .shk pro
 
 Simply use your iPhone to sample vibrations, shakes etc using the accelerometers and then review and adjust these directly.  The app will capture X/Y translation along with rotation and then decompose this data into three separate frequencies that can be visualised independently.  You can preview the shake in real time before exporting a .shk file for use within the Nuke Gizmo.
 
+<img width="585" height="1266" alt="ShakeSynthApp" src="https://github.com/user-attachments/assets/f143d7ae-992b-4d7a-aa56-170560ff9057" />
 
 # ShakeSynth Gizmo
 The ShakeSynth gizmo is a dedicated camera-shake node specifically designed to import and apply the .shk files created by the phone app.  However, there are a number of useful presets supplied to show you how the tool works.  Unlike many other camera-shake tools, ShakeSynth allows for very precise control over the different shake frequencies to fine tune the end result.
