@@ -3,14 +3,14 @@
 # ampY=20.0
 # ampR=1.0
 # enableXLow=true
-# enableXMid=false
+# enableXMid= true
 # enableXHigh=true
-# enableYLow=false
+# enableYLow= true
 # enableYMid=true
 # enableYHigh=true
 # enableRotLow=true
 # enableRotMid=true
-# enableRotHigh=false
+# enableRotHigh= true
 # xLowMult=1.0
 # xMidMult=1.0
 # xHighMult=1.0
