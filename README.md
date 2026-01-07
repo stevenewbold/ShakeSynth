@@ -104,7 +104,7 @@ Capturing useful waveforms takes a bit of practice, but the following is good ad
 
 
 # Licence
-**Copyright © 2025 Stephen Newbold**
+**Copyright © 2026 Stephen Newbold**
 You may use this software for free, including for commercial work.
 
 Please don’t modify it, reverse-engineer it, or make your own versions based on it without permission.
