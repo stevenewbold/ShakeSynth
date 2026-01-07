@@ -7,6 +7,8 @@ There are a number of very useful third-party Nuke gizmos for applying camera sh
 # ShakeSynth App
 This is a dedicated app on the AppStore specifically for generating the .shk profiles that are used within the gizmo.
 
+https://apps.apple.com/gb/app/shakesynth/id6756015883
+
 Simply use your iPhone to sample vibrations, shakes etc using the accelerometers and then review and adjust these directly.  The app will capture X/Y translation along with rotation and then decompose this data into three separate frequencies that can be visualised independently.  You can preview the shake in real time before exporting a .shk file for use within the Nuke Gizmo.
 
 <img width="231" height="500" alt="ShakeSynthApp" src="https://github.com/user-attachments/assets/0cf71c0a-9137-4053-a3b1-482a6dc78a86" />
