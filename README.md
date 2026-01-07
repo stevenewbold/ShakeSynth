@@ -7,17 +7,19 @@ There are a number of very useful third-party Nuke gizmos for applying camera sh
 # ShakeSynth App
 This is a dedicated app on the AppStore specifically for generating the .shk profiles that are used within the gizmo.
 
+https://apps.apple.com/gb/app/shakesynth/id6756015883
+
 Simply use your iPhone to sample vibrations, shakes etc using the accelerometers and then review and adjust these directly.  The app will capture X/Y translation along with rotation and then decompose this data into three separate frequencies that can be visualised independently.  You can preview the shake in real time before exporting a .shk file for use within the Nuke Gizmo.
 
 <img width="231" height="500" alt="ShakeSynthApp" src="https://github.com/user-attachments/assets/0cf71c0a-9137-4053-a3b1-482a6dc78a86" />
 
 # ShakeSynth Gizmo
-The ShakeSynth gizmo is a dedicated camera-shake node specifically designed to import and apply the .shk files created by the phone app.  However, there are a number of useful presets supplied to show you how the tool works.  Unlike many other camera-shake tools, ShakeSynth allows for very precise control over the different shake frequencies to fine tune the end result.
+The ShakeSynth gizmo is a dedicated camera-shake Nuke node specifically designed to import and apply the .shk files created by the phone app.  However, there are a number of useful presets supplied to show you how the tool works.  Unlike many other camera-shake tools, ShakeSynth allows for very precise control over the different shake frequencies to fine tune the end result.
 
 <img width="1124" height="585" alt="ShakeSynthUI" src="https://github.com/user-attachments/assets/cb9356d0-b683-4837-8ff2-8bfd22ea9d72" />
 
 ## Installation
-The easiest way to install the gizmo is to download the entire ShakeSynth direcroy and add it to somewhere in your NUKE_PATH.  For individuals this is usually the '.nuke' directory in the home directory.  Facilities can install the tool in the same way as any other Nuke gizmo, but its crucial that the gizmo stays inside the ShakeSynth folder, along side the 'profiles' folder and icon files.
+The easiest way to install the gizmo is to download the entire ShakeSynth directory and add it to somewhere in your NUKE_PATH.  For individuals this is usually the '.nuke' directory in the home directory.  Facilities can install the tool in the same way as any other Nuke gizmo, but its crucial that the gizmo stays inside the ShakeSynth folder, along side the 'profiles' folder and icon files.
 
 Use the following code within your menu.py file to correctly add ShakeSynth to Nuke.
 
@@ -80,7 +82,7 @@ While its perfectly acceptable to use the ShakeSynth gizmo within the Nuke node 
 
 
 # Tips and Tricks
-It is a deliberate choice not to allow the saving of adjusted profiles within the gizmo as it adds a lot of complexity with permissions if installed facility wide.  However, it is perfectly acceptable to use Nuke's own defaults system to create loadable custom states.  It is also pretty straight forward to create duplicates and varations of profiles by manually adjusting .shk files and giving them unique names.  Of course, saved ShakeSynths will maintain their settings.
+It is a deliberate choice not to allow the saving of adjusted profiles within the gizmo as it adds a lot of complexity with permissions if installed facility wide.  However, it is perfectly acceptable to use Nuke's own defaults system to create loadable custom states.  It is also pretty straight forward to create duplicates and variations of profiles by manually adjusting .shk files and giving them unique names.  Of course, saved ShakeSynth nodes will maintain their settings.
 
 It is also suggested to use a sensible naming of presets to allow users to find the most suitable one.  Typically this would start with the type of shake, then any type custom description and a version number.  For instance profiles may be called something like,
 
@@ -102,7 +104,7 @@ Capturing useful waveforms takes a bit of practice, but the following is good ad
 
 
 # Licence
-**Copyright © 2025 Stephen Newbold**
+**Copyright © 2026 Stephen Newbold**
 You may use this software for free, including for commercial work.
 
 Please don’t modify it, reverse-engineer it, or make your own versions based on it without permission.
@@ -113,6 +115,8 @@ The software is provided as-is, with no guarantees.
 
 
 # Commercial Use
-You are welcome to use ShakeSynth for free for any personal or commercial work (see Licence above) but a lot of time and effort goes into creating these tools so if you find it useful, please consider buying me a coffee at https://buymeacoffee.com/stevenewbold to support maintaining my personal Nuke licence.
+You are welcome to use ShakeSynth for free for any personal or commercial work (see Licence above) but a lot of time and effort goes into creating these tools so if you find it useful, please consider buying me a coffee at https://buymeacoffee.com/stevenewbold to support maintaining my personal Nuke licence (and coffee addiction! :) ).
+
+Please don't seperate the ShakeSynth.gizmo tool from the supporting profiles.  I suggest always downloading from github to make sure you get the best and latest version.
 
 <img width="100" height="100" alt="bmc_qr" src="https://github.com/user-attachments/assets/452b4ceb-0ed3-4c05-b60d-5fe49c5630d3" />
